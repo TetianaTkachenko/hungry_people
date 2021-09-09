@@ -1,0 +1,756 @@
+@media (min-width: 1300px) and (max-width: 1399px) {
+    .contact {
+        .contact_blok {
+            form  {
+                .form-bottom {
+                    div {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    } 
+}
+
+
+@media (min-width: 992px) and (max-width: 1299px) {
+    .inner_header {
+        .center_inner {
+            h1 {
+                font-size: 75px;
+            }
+        }
+    }
+
+    .square-image-box {
+        width: 315px;
+        height: 315px;
+   
+        &::after {
+            width: 165px;
+            height: 165px;
+        }
+    }
+
+    .text_blok {
+
+        h3 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 27px;
+        }
+    }
+
+    .master_chef {
+        .text_blok  {
+            p {
+                font-size: 11px;
+            }
+        }
+    } 
+
+    .pancakes {
+        .text_blok {
+            p {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .contact {
+        .contact_blok {
+            h3 {
+                font-size: 15px;
+            }
+
+            form {
+                .form-top {
+                    input {
+                        font-size: 12px;
+                    }
+                }
+
+                .form-bottom {
+                    div {
+                        font-size: 9px;
+                    }
+
+                    button {
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .menu::before {
+        width: 33%;
+    }
+
+    .menu::after {
+        width: 33%; 
+    }
+    .inner_header {
+        .center_inner {
+            h1 {
+                font-size: 50px;
+            }
+
+            .btn_header {
+                button {
+                    min-width: 170px;
+                }
+            }
+
+            .btn-bottom {
+                button::before {
+                    display: none;
+                }
+
+                button::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .blok {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .square-image-box {
+        width: 315px;
+        height: 315px;
+   
+        &::after {
+            width: 165px;
+            height: 165px;
+        }
+    }
+
+    .text_blok {
+
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 27px;
+        }
+    }
+
+    .master_chef {
+        .text_blok  {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+           
+            p {
+                font-size: 14px;
+            }
+        }
+    } 
+
+    .table_a_book  {
+        .blok_book  {
+            .blok_table {
+                flex-direction: column-reverse;
+
+                .table_book {
+                    width: 100%;
+                    margin-top: 40px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .pancakes {
+        .text_blok {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        
+    }
+
+    .dilicious_menu {
+        .menu_nav {
+            ul {
+                li {
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+
+    .private_events {
+        .blok {
+            .private_events--inner {
+                flex-direction: column;
+
+                .square-image-box {
+                    margin-top: 40px;
+                }
+            }
+        } 
+    } 
+
+    .contact {
+        .contact_blok {
+            h3 {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            form {
+                .form-top {
+                    input {
+                        font-size: 12px;
+                    }
+                }
+
+                .form-bottom {
+                    div {
+                        font-size: 9px;
+                        flex: 2;
+                    }
+
+                    button {
+                        padding: 20px 0;
+                        flex: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .container {
+        max-width: 767px;
+        margin: 0;
+    }
+    .menu::before {
+        display: none;
+    }
+
+    .menu::after {
+        display: none; 
+    }
+
+    .menu_left {
+        padding-top: 15px;
+        ul {
+            flex-direction: column;
+
+            li {
+                padding: 5px;
+            }
+        }
+    }
+
+    .menu_right {
+        padding-top: 15px;
+        ul {
+            flex-direction: column;
+
+            li {
+                padding: 5px;
+            }
+        }
+    }
+
+    .inner_header {
+        padding: 100px 0px 90px 0px;
+
+    &::after {
+        display: none;
+    }
+
+    &::before {
+        display: none;
+    }
+        .center_inner {
+            h1 {
+                font-size: 30px;
+            }
+
+            .btn_header {
+                button {
+                    min-width: 150px;
+                    padding: 10px 30px;
+                }
+
+                button:first-child {
+                    margin-right: 5px;
+                }
+
+                button:last-child {
+                    margin-left: 5px;
+                }
+            }
+
+            .btn-bottom {
+                button::before {
+                    display: none;
+                }
+
+                button::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .blok {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .square-image-box {
+        width: 315px;
+        height: 315px;
+   
+        &::after {
+            width: 165px;
+            height: 165px;
+        }
+    }
+
+    .text_blok {
+
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+
+        h3 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 27px;
+        }
+    }
+
+    .master_chef {
+        .text_blok  {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+           
+            p {
+                font-size: 11px;
+                padding: 0;
+            }
+        }
+    } 
+
+    .table_a_book  {
+        .blok_book  {
+            .blok_table {
+                flex-direction: column-reverse;
+
+                .table_book {
+                    width: 100%;
+                    margin-top: 40px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .pancakes {
+        .text_blok {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+
+            p {
+                font-size: 11px;
+                padding-top: 0;
+            }
+        }
+
+        
+    }
+
+    .dilicious_menu {
+        .blok_menu {
+
+            h3 {
+                font-size: 14px;
+            }
+            .menu_nav {
+                ul {
+                    padding-left: 0;
+                    li {
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+
+        .pizza-price {
+            flex-direction: column;
+
+            .blok__price--menu {
+                width: 100%;
+                padding: 0 20px;
+            }
+
+            .prace__menu--title {
+                font-size: 15px;
+            }
+
+            .prace__menu--usd {
+                font-size: 15px;
+            }
+
+            .menu__subtitle {
+                font-size: 10px;
+            }
+        }
+        
+    }
+
+    .private_events {
+        .blok {
+            .private_events--inner {
+                flex-direction: column;
+
+                .square-image-box {
+                    margin-top: 40px;
+                }
+            }
+        } 
+    } 
+
+    .contact {
+        .contact_blok {
+            h3 {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            form {
+                .form-top {
+                    input {
+                        font-size: 12px;
+                    }
+                }
+
+                .form-bottom {
+                    div {
+                        font-size: 10px;
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start
+                    }
+
+                    button {
+                        padding: 15px 0;
+                        flex: 1;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 767px;
+        margin: 0;
+    }
+    .menu::before {
+        display: none;
+    }
+
+    .menu::after {
+        display: none; 
+    }
+
+    .menu_left {
+        padding-top: 15px;
+        ul {
+            flex-direction: column;
+
+            li {
+                padding: 5px;
+            }
+        }
+    }
+
+    .menu_right {
+        padding-top: 15px;
+        ul {
+            flex-direction: column;
+
+            li {
+                padding: 5px;
+            }
+        }
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+    }
+
+    .inner_header {
+        padding: 100px 0px 90px 0px;
+
+    &::after {
+        display: none;
+    }
+
+    &::before {
+        display: none;
+    }
+        .center_inner {
+            h1 {
+                font-size: 25px;
+            }
+
+            .btn_header {
+                text-align: center;
+
+                button {
+                    min-width: 150px;
+                    padding: 10px 30px;
+                }
+
+                button:first-child {
+                    margin: 0 0 10px 0;
+                }
+
+                button:last-child {
+                    margin-left: 0;
+                }
+            }
+
+            .btn-bottom {
+                button::before {
+                    display: none;
+                }
+
+                button::after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .blok {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .square-image-box {
+        width: 206px;
+        height: 206px;
+   
+        &::after {
+            width: 108px;
+            height: 108px;
+        }
+    }
+
+    .text_blok {
+
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
+
+        h3 {
+            font-size: 12px;
+        }
+
+        p {
+            font-size: 11px;
+            line-height: 27px;
+        }
+    }
+
+    .master_chef {
+        .text_blok  {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+           
+            p {
+                font-size: 11px;
+                padding: 0;
+            }
+        }
+    } 
+
+    .table_a_book  {
+        .blok_book  {
+            .blok_table {
+                flex-direction: column-reverse;
+
+                .table_book {
+                    width: 100%;
+                    margin-top: 40px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .pancakes {
+        .text_blok {
+            margin-top: 40px;
+            margin-left: 0;
+
+            &::before {
+                display: none;
+            }
+
+            p {
+                font-size: 11px;
+                padding-top: 0;
+            }
+        }
+
+        
+    }
+
+    .dilicious_menu {
+        .blok_menu {
+
+            h3 {
+                font-size: 10px;
+            }
+            .menu_nav {
+                ul {
+                    padding-left: 0;
+                    li {
+                        padding: 5px 5px;
+                    }
+
+                    a {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+        .pizza-price {
+            flex-direction: column;
+
+            .blok__price--menu {
+                width: 100%;
+                padding: 0 20px;
+            }
+
+            .prace__menu--title {
+                font-size: 15px;
+            }
+
+            .prace__menu--usd {
+                font-size: 15px;
+            }
+
+            .menu__subtitle {
+                font-size: 10px;
+            }
+        }
+        
+    }
+
+    .private_events {
+        .blok {
+            .private_events--inner {
+                flex-direction: column;
+
+                .square-image-box {
+                    margin-top: 40px;
+                }
+            }
+        } 
+    } 
+
+    .contact {
+        .contact_blok {
+            h3 {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            form {
+                .form-top {
+                    flex-direction: column;
+                    input {
+                        font-size: 12px;
+                        padding: 10px 0;
+                    }
+
+                    input[type="email"] {
+                        margin: 15px 0 15px 0;
+                    }
+                }
+
+                .form-bottom {
+                    div {
+                        font-size: 10px;
+                        flex: 2;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        margin-right: 0;
+                    }
+
+                    button {
+                        padding: 15px 0;
+                        flex: 1;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
